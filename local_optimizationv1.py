@@ -180,7 +180,7 @@ def optimize(lines, x_dict, n):                                                 
 file_name = sys.argv[1]
 num = file_name[8:10]
 input = open(file_name,"r")
-output = open("local_solution"+str(num)+".txt","w")
+output = open("local1_solution"+str(num)+".txt","w")
 
 #READ AND STORE POINT VALUES
 n = int(input.readline())
